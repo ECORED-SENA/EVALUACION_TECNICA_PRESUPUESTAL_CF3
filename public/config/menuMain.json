@@ -1,0 +1,33 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "1. Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html"   
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "financiera",
+    "title": "2. Evaluación financiera",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/2-tema.html"   
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "evaluacion",
+    "title": "3. Evaluación técnica y metodológica",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/3-tema.html"   
+  }
+]
