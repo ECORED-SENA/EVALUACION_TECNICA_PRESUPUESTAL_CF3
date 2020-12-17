@@ -40,21 +40,18 @@ html(lang="es")
                                     +navTemaItem('2', 'Evaluación financiera', '#tema-2')
                                     +navTemaItem('3', 'Evaluación técnica y metodológica', '#tema-3')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
             #tema-1
                 include pages/1-tema.pug
-            #evaluacion
-                include pages/actividad-1.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
             #glosario
                 include pages/glosario.pug
-            #anexos
-                include pages/material-complementario.pug
             #referencias
                 include pages/referencias.pug
 
